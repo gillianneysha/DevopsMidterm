@@ -1,0 +1,87 @@
+  155  mkdir myapp
+  156  cd myapp
+  157  git init
+  158  nano .gitignore
+  159  git status
+  160  git add README.md
+  161  git commit -m "Initial commit"
+  162  git config --global user.email "yshapapa.lim@gmail.com"
+  163  git config --global user.name "gillianneysha"
+  164  git clone git clone https://github.com/gillianneysha/Devops.git
+  166  mkdir myapp
+  168  rm myapp
+  169  rmdir myapp
+  173  cd Devops
+  174  nano .gitignore
+  176  nano .gitignore
+  177  git add .
+  178  git commit -m "Initial project structure"
+  179  git push
+  180  git checkout -b feature/django-app
+  181  pip install django
+  182  sudo apt install python3 python3-pip
+  183  sudo apt install python3-venv
+  184  apt-get update
+  185  pip install django
+  186  sudo apt install python3-pip
+  187  django-admin startproject webapp .
+  188  sudo apt install python3-django
+  189  django-admin startproject webapp .
+  191  cd webap
+  193  nano urls.py
+  195  git add .
+  196  git commit -m "Add basic Django project"
+  197  git push
+  198  git push --set-upstream origin feature/django-app
+  199  git push
+  200  git push --set-upstream origin feature/django-app
+  201  git checkout main
+  203  git pull origin main
+  234  ls
+  235  git remote add origin https://github.com/gillianneysha/DevopsMidterm.git
+  236  ls
+  237  git clone https://github.com/gillianneysha/DevopsMidterm.git
+  238  ls
+  239  cd DevopsMidterm
+  240  nano .gitignore
+  241  git add .
+  242  git commit -m "Initial project structure"
+  243  git push
+  244  git checkout -b feature/django-app
+  245  django-admin startproject webapp 
+  254  git status
+  255  git add .
+  256  git commit -m "Add basic Django project"
+  257  git push
+  258  git push --set-upstream origin feature/django-app
+  259  git checkout main
+  260  git merge feature/django-app
+  261  git tag "v1.0"
+  263  nano Dockerfile
+  265  nano requirements.txt
+  266  docker compose up
+  271  cd webapp
+  275  docker build -t myapp:v1 .
+  276  docker run -p 8000:8000 myapp:v1
+  277  mv webapp/manage.py
+  316  cd DevopsMidterm
+  317  django-admin startproject webapp
+  323  docker build -t myapp:v1
+  324  docker build -t myapp:v1 .
+  372  docker build -t myapp:v1
+  373  docker build -t myapp:v1 .
+  383  `docker-compose up
+  384  docker-compose up
+  385  docker-compose up build 
+  452  python3 manage.py runserver 192.168.186.128:8000
+  453  git add .
+  454  git commit -m "Add basic Django project"
+  455  git push
+  456  git pull
+  457  git push --force
+  458  git --no-pager log > git_command_log.txt
+  459  ls
+  460  nano git_command_log.txt
+  461  rm git_command_log.txt
+  462  ls
+  463  history > git_command_log.txt
